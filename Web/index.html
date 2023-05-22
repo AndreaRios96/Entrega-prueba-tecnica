@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
+  <script type="text/javascript" src="js/index.js"></script>
+  <link rel="icon" type="image/png" href="img/sharging.png" />
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <title>Monitoring System</title>
+</head>
+
+<body>
+  <div id="div-title" class="row center">
+    <div class="ml9 col s12 center-align">
+      <span class="text-wrapper">
+        <h3 id="title-center" class="letters">MONITORING SYSTEM</h3>
+      </span>
+    </div>
+  </div>
+  <div id="container" class="row">
+    <div id="graph">
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+
+  <div id="table">
+    <table id="body-table">
+      <thead>
+        <tr>
+          <th>IP</th>
+          <th>HOSTNAME</th>
+          <th>% MEMORY</th>
+          <th>% CPU</th>
+          <th>% DISK</th>
+          <th>SAMPLING DATE</th>
+          <th># NOTIFICATIONS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="tr-1">
+          <th id="ip-1">DEVICE</th>
+          <td id="host-1">0</td>
+          <td id="memory-1">0</td>
+          <th id="cpu-1">0</th>
+          <td id="disk-1">0</td>
+          <td id="time-1">0</td>
+          <td id="notify-1">0</td>
+        </tr>
+        <tr id="tr-2">
+          <th id="ip-2">DEVICE</th>
+          <td id="host-2">0</td>
+          <td id="memory-2">0</td>
+          <th id="cpu-2">0</th>
+          <td id="disk-2">0</td>
+          <td id="time-2">0</td>
+          <td id="notify-2">0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>

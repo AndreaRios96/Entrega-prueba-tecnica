@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poiretone/v14/UqyVK80NJXN4zfRgbdfbo55cVw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/rajdhani/v15/LDI2apCSOBg7S-QT7pb0EPOreec.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body{
+    padding: 3% 5%;
+    background:rgb(2, 17, 26);
+    color: white;
+}
+
+#div-title{
+    font-family: 'Poiret One', cursive;
+}
+
+#time-charging{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px dotted white;
+}
+
+#container{
+    padding: 3%;
+    border-radius: 20px;
+    border: 1px rgb(0, 181, 226) inset;
+    background:rgb(5, 41, 63);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#graph{
+    position: relative;
+    width: 80% !important;
+    /* float: center !important; */
+}
+
+/* #table{
+    width: 20% !important;
+    float: center !important;
+    font-size: 11px;
+} */
+
+
+.ml9 {
+    position: relative;
+    margin-top: -2em;
+}
+
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+}
+  
+.ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+
